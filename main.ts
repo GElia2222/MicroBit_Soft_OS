@@ -15,7 +15,7 @@ input.onButtonPressed(Button.A, function () {
     if (Ready == 1) {
         basic.showNumber(input.temperature())
     } else {
-        Boot_SoftOS()
+    	
     }
 })
 input.onButtonPressed(Button.AB, function () {
@@ -31,7 +31,7 @@ input.onButtonPressed(Button.B, function () {
     if (Ready == 1) {
         SoftLink()
     } else {
-        Boot_SoftOS()
+    	
     }
 })
 function Boot_SoftOS () {
